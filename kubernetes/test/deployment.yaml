@@ -21,7 +21,5 @@ spec:
       containers:
         - name: helloworld
           image: public.ecr.aws/nginx/nginx:latest
-          args:
-            - server
           ports:
             - containerPort: 80
